@@ -2,6 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
+import superSlot from "@/public/superSlot.jpg";
+import TourTales from "@/public/Tourtales.png";
 import TT from "@/public/TT.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -140,6 +142,33 @@ export const projectsData = [
       "A website for a trucking agency with multiple pages beautiful custom sliders and contact form.",
     tags: ["React", "Next.js", "Resend", "Tailwind", "Framer", "Vercel"],
     imageUrl: freightHub,
+    url: "https://freight-hub-inky.vercel.app/",
+  },
+  {
+    title: "SuperSlot",
+    description: `A booking platform using the MERN stack, Live maps, Secure JWT authentication,
+  RESTful APIs, Eeminder mails, Active jobs and more.\n
+  `,
+    tags: [
+      "MapBox Api",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Tailwind",
+      "Stripe",
+    ],
+    imageUrl: superSlot,
+    url: "https://supersslot.onrender.com/",
+  },
+  {
+    title: "TourTales",
+    description: `Tour booking platform using MERN stack, integrated JWT for secure
+  authentication, RESTful APIs, Complete Emailing system and payment methods. Platform handles complex
+  queries!`,
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind", "Stripe"],
+    imageUrl: TourTales,
+    url: "https://tourtales-p02r.onrender.com/",
   },
   {
     title: "CorpComment",
@@ -147,6 +176,7 @@ export const projectsData = [
       "Users can give public feedback to companies. I created full-stack web application including front-end and back-end.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
+    url: "#",
   },
   {
     title: "rmtDev",
@@ -154,6 +184,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I developed the back-end of this application. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: rmtdevImg,
+    url: "#",
   },
   // {
   //   title: "Word Analytics",

@@ -5,6 +5,7 @@ import { useScroll } from "framer-motion";
 import { motion, useTransform } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+import { TfiNewWindow } from "react-icons/tfi";
 import React from "react";
 
 type project = (typeof projectsData)[number];
@@ -14,8 +15,10 @@ export default function Project({
   description,
   imageUrl,
   tags,
+  url,
 }: project) {
   const ref = useRef<HTMLDivElement>(null);
+
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
@@ -33,9 +36,17 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="max-w-[42rem] rounded-lg relative bg-gray-100 border border-black/5 overflow-hidden sm:pr-8 mb-3 sm:mb-8 last:mb-0 sm:h-[20rem] sm:group-even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white">
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block max-w-[42rem] rounded-lg relative bg-gray-100 border border-black/5 overflow-hidden sm:pr-8 mb-3 sm:mb-8 last:mb-0 sm:h-[20rem] sm:group-even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20 dark:text-white"
+      >
         <div className="py-4 px-5 pb-7 sm:group-even:ml-[18rem] sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full">
-          <h3 className="text-2xl font-semibold">{title}</h3>
+          <h3 className="text-2xl font-semibold flex gap-3 text-gray-300">
+            {title}{" "}
+            <TfiNewWindow className="text-lg my-auto mb-[10px] group-hover:opacity-100 transition-all duration-150 opacity-0" />
+          </h3>
           <p className=" mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
@@ -71,7 +82,7 @@ export default function Project({
           alt="This is the picture"
           quality={90}
         ></Image>
-      </section>
+      </a>
     </motion.div>
   );
 }

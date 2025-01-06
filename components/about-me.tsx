@@ -29,11 +29,10 @@ function AboutMe() {
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">React, Next.js</span>. I am also
+        is <span className="font-medium">MERN, React, Next.js</span>. I am also
         familiar with TypeScript. I am always looking to learn new technologies.
         I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a website
-        developer.
+        <span className="font-medium">full-time position</span> as a Developer.
       </p>
 
       <p>

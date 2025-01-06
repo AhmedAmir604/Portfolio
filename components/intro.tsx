@@ -80,11 +80,11 @@ export default function Intro() {
         {/* MERN Stack Developer | Driven to Build Seamless Full-Stack Solutions */}
         <span className="font-bold text-3xl ">
           {" "}
-          MERN Stack Developer. Driven to Build Seamless Full-Stack Solutions
+          MERN, NextJs Developer. Driven to Build Seamless Full-Stack Solutions
         </span>
         <span className="mt-4 block text-[18px] px-5 text-black dark:text-gray-400">
-          Hello, I'm Ahmed I'm a website developer with 6 months of experience.
-          I enjoy building sites & apps
+          Hello, I'm Ahmed I'm a developer with 6 months of experience. I enjoy
+          building sites & apps
         </span>
         {/* <span className="font-bold">Hello, I'm Ahmed.</span> I'm a{" "}
         <span className="font-bold">website developer</span> with{" "}
