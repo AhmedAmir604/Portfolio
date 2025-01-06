@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import superSlot from "@/public/superSlot.jpg";
-import TourTales from "@/public/Tourtales.png";
+import TourTales from "@/public/TourTales.png";
 import TT from "@/public/TT.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
