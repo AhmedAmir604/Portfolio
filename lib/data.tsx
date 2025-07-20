@@ -11,8 +11,7 @@ import freightHub from "@/public/freightHub.png";
 
 
 import linkShrink from "@/public/linkShrink.png";
-import ghostBox from "@/public/ghostBox.png";
-
+import ghostBox from "@/public/ghostBox.png"
 
 
 import { FaNodeJs } from "react-icons/fa";
