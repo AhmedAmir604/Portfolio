@@ -4,12 +4,12 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import superSlot from "@/public/superSlot.jpg";
 import TourTales from "@/public/TourTales.jpg";
-import TT from "@/public/TT.png";
+// import TT from "@/public/TT.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import wordanalyticsImg from "@/public/wordanalytics.png";
 import freightHub from "@/public/freightHub.png";
 
-
+//fixing images
 import linkShrink from "@/public/linkShrink.png";
 import ghostBox from "@/public/ghostBox.png"
 
@@ -26,7 +26,7 @@ import { FiFramer } from "react-icons/fi";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMicrosoftsqlserver } from "react-icons/si";
-import { PiMountainsFill } from "react-icons/pi";
+// import { PiMountainsFill } from "react-icons/pi";
 import { SiRedux } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
