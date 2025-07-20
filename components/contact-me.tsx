@@ -32,16 +32,17 @@ export default function ContactMe() {
       <Heading>Get in Touch</Heading>
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please Contact me directly on{" "}
-        <a className="underline" href="mailto:example@gmail.com">
+        <a className="underline" href="mailto:ahmedaamir604@gmail.com">
           ahmedaamir604@gmail.com
         </a>{" "}
         or Through this form.
       </p>
-
+      
       <form
         className="mt-8 flex flex-col dark:text-white"
         action={async (formData) => {
           const { error, data } = await SendEmail(formData);
+
           if (error) {
             toast.error(error);
           } else {

@@ -55,7 +55,7 @@ export default function Intro() {
           cursor-pointer dark:bg-white/10 font-semibold text-[14px]"
           >
             <div className="">🎉</div>
-            Check out my new project
+            Check out my new project 
           </a>
 
           <motion.span
@@ -77,14 +77,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {/* MERN Stack Developer | Driven to Build Seamless Full-Stack Solutions */}
         <span className="font-bold text-3xl ">
-          {" "}
-          MERN, NextJs Developer. Driven to Build Seamless Full-Stack Solutions
+          Full-Stack Dev | MERN | Next.js Expert
         </span>
         <span className="mt-4 block text-[18px] px-5 text-black dark:text-gray-400">
-          Hello, I'm Ahmed I'm a developer with 6 months of experience. I enjoy
-          building sites & apps
+          Hey, I'm Ahmed — a full-stack MERN/Next.js dev with 1+ years building AI-powered web apps,
+          startup MVPs, and SEO-ready solutions that scale. From messy ideas to shippable products, fast.
         </span>
         {/* <span className="font-bold">Hello, I'm Ahmed.</span> I'm a{" "}
         <span className="font-bold">website developer</span> with{" "}

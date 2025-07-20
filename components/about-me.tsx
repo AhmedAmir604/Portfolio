@@ -21,27 +21,29 @@ function AboutMe() {
     >
       <Heading>About Me</Heading>
       <p className="mb-3">
-        Doing graduation in{" "}
-        <span className="font-medium">Computer Science degree</span>, I decided
-        to pursue my passion for programming. I enrolled in a coding bootcamp
-        and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">MERN, React, Next.js</span>. I am also
-        familiar with TypeScript. I am always looking to learn new technologies.
-        I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a Developer.
+        With a solid foundation in{" "}
+        <span className="font-medium">Computer Science</span>, I've built my
+        expertise across the full development spectrum. I specialize in crafting
+        robust applications using{" "}
+        <span className="font-medium">JavaScript, TypeScript, React, and Next.js</span>,
+        backed by powerful server-side solutions with{" "}
+        <span className="font-medium">Node.js and Express</span>.{" "}
+        <span className="italic">What drives me</span> is architecting scalable
+        systems that solve real problems. I work confidently with diverse databases -
+        from <span className="underline">SQL variants</span> like PostgreSQL and MySQL
+        to NoSQL solutions like MongoDB. My toolkit extends to{" "}
+        <span className="font-medium">AWS services, GraphQL, WebSockets, and modern
+          state management with RTK</span>. I deliver production-ready applications
+        that perform.
       </p>
-
+      {/* 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and doing gym. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about <span className="font-medium">Node.js and MongoDB</span>.
         I'm also learning networking.
-      </p>
+      </p> */}
     </motion.section>
   );
 }

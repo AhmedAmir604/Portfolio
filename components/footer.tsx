@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="text-center mb-5 px-4 text-gray-600 dark:text-gray-400">
       <small className="text-sm block mb-2">
-        &copy; 2024 Muhammad Ahmed. All rights reserved.
+        &copy; 2025 Muhammad Ahmed. All rights reserved.
       </small>
       {/* <p className="text-xs">
         <span className="font-semibold">About this website:</span>

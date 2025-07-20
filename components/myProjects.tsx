@@ -9,11 +9,11 @@ export default function MyProjects() {
       <h1 className="text-4xl text-center text-gray-700 mb-10 dark:text-gray-100">
         Repo's & Links
       </h1>
-      <div className="w-full mb-16 px-12 flex flex-col gap-5 lg:flex-row lg:justify-center items-center ">
+      <div className="w-full mb-16 px-4 sm:px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
         {myProjects.map((project) => (
           <div
             key={project.title}
-            className="max-w-[25rem] flex flex-col gap-1 py-5 items-center dark:bg-[#141415] bg-gray-50"
+            className="w-full max-w-[25rem] flex flex-col gap-1 py-5 px-4 items-center dark:bg-[#141415] bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
           >
             <div className="w-fit p-3 rounded-full bg-gray-200 dark:bg-[#27272a]  ">
               {" "}

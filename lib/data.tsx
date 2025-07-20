@@ -8,6 +8,8 @@ import TT from "@/public/TT.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import freightHub from "@/public/freightHub.png";
+import linkShrink from "@/public/linkShrink(1).png";
+import ghostBox from "@/public/ghostBox.png";
 import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
@@ -21,58 +23,75 @@ import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiMicrosoftsqlserver } from "react-icons/si";
 import { PiMountainsFill } from "react-icons/pi";
+import { SiRedux } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiSupabase } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiGraphql } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { SiMeta } from "react-icons/si";
+import { FaLinux } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 export const skillIcons = [
-  <FaNodeJs key="nodejs" />,
-  <FaReact key="react" />,
-  <SiExpress key="express" />,
-  <SiMongodb key="mongodb" />,
-  <SiTailwindcss key="tailwind" />,
-  <SiWebpack key="webpack" />,
-  <FaGitAlt key="git" />,
-  <TbBrandNextjs key="nextjs" />,
-  <FiFramer key="framer" />,
+  <SiHtml5 key="html" />,
+  <SiCss3 key="css" />,
+  <IoLogoJavascript key="javascript" />,
   <SiTypescript key="typescript" />,
-  <IoLogoJavascript key={"javascript"} />,
-  <SiMicrosoftsqlserver key={"microsoftSql"} />,
+  <FaReact key="react" />,
+  <SiRedux key="redux" />,
+  <SiMicrosoftsqlserver key="mssql" />,
+  <SiMysql key="mysql" />,
+  <SiPostgresql key="postgresql" />,
+  <SiMongodb key="mongodb" />,
+  <SiSupabase key="supabase" />,
+  <SiFirebase key="firebase" />,
+  <FaNodeJs key="nodejs" />,
+  <TbBrandNextjs key="nextjs" />,
+  <SiExpress key="express" />,
+  <SiGraphql key="graphql" />,
+  <FaGitAlt key="git" />,
+  <FaGithub key="github" />,
+  <SiTailwindcss key="tailwind" />,
+  <FaAws key="aws" />,
+  <SiMeta key="meta" />,
+  <FaLinux key="linux" />,
+  <FaPython key="python" />,
+  <FiFramer key="framer" />,
 ];
 
 export const myProjects = [
   {
-    title: "TourTales",
-    description: "Complete MERN Stack app for booking Tours and many more...",
-    text: "TT",
-    skills: ["Node.js", " Express.js", " MongoDB ", "React.js", "TailwindCSS"],
+    title: "Ghost Box",
+    description: "Fast, private temp mail with real-time inbox, auto-delete, and AWS-powered backend.",
+    text: "GB",
+    skills: ["TypeScript", "Next.js 14", "MongoDB", "AWS Lambda", "SES", "Node.js", "WebSocket"],
     links: {
-      live: "https://tourtales-p02r.onrender.com",
-      github: "https://github.com/AhmedAmir604/TourTales",
+      live: "https://ghostbox.ahmedamir.me",
+      github: "https://github.com/AhmedAmir604/10-min-mailer",
       stars: "starsHere",
     },
   },
   {
-    title: "FreightHub",
-    description:
-      "FreightHub is a modern logistics platform built using Next.js.",
+    title: "LinkShink",
+    description: "A sleek URL shortener built with React and Node.js, featuring link tracking, and powerful analytics tools.",
+    text: "LS",
+    skills: ["React 18", "Express", "Mongoose", "Axios", "Node.js", "REST API", "Analytics"],
+    links: {
+      live: "https://linkshink.ahmedamir.me",
+      github: "https://github.com/AhmedAmir604/Muhammad-innovaxel-Ahmed",
+      stars: "starsHere",
+    },
+  },
+  {
+    title: "Freight Hub",
+    description: "A website for a trucking agency with multiple pages beautiful custom sliders and contact form.",
     text: "FH",
-    skills: ["Next.js", " React.js", "TypeScript", "TailwindCSS", "Resend"],
-    links: {
-      live: "https://freight-hub-inky.vercel.app/",
-      github: "https://github.com/AhmedAmir604/FreightHub",
-      stars: "starsHere",
-    },
-  },
-  {
-    title: "PortfolioSite",
-    description: "A dynamic portfolio showcasing my web development skills.",
-    text: "PS",
-    skills: [
-      "FramerMotion",
-      "Next.js",
-      " React.js",
-      "TypeScript",
-      "TailwindCSS",
-      "Resend",
-    ],
+    skills: ["React", "Next.js", "Resend", "Tailwind", "Framer", "Vercel"],
     links: {
       live: "https://freight-hub-inky.vercel.app/",
       github: "https://github.com/AhmedAmir604/FreightHub",
@@ -111,20 +130,28 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bachelors in Computer Science",
-    location: "Univeristy of Management and Technology",
+    location: "University of Management and Technology",
     description:
       "I am a passionate student of BSCS with lean towards CyberSecurity.",
     icon: <LuGraduationCap />,
     date: "2024-present",
   },
   {
-    title: "Creative StoryBoard Writer",
-    location: "Fiverr",
+    title: "Full-Stack Developer",
+    location: "AHBytes - Johar Town, LHR",
     description:
-      "I worked as a story board writer for 6 months where i learn about creative and eye catching animations for instagram reels.",
-    icon: <CgWorkAlt />,
-    date: "2023-2024",
+      "Built optimized Next.js dashboards (-40% load), added real-time WebSocket charts (+25% engagement), Meta API AI auto-replies, and AWS SES email on EC2.",
+    icon: <FaReact />,
+    date: "Jan 2025 - Jun 2025",
   },
+  // {
+  //   title: "Creative StoryBoard Writer",
+  //   location: "Fiverr",
+  //   description:
+  //     "I worked as a story board writer for 6 months where i learn about creative and eye catching animations for instagram reels.",
+  //   icon: <CgWorkAlt />,
+  //   date: "2023-2024",
+  // },
   {
     title: "Website Developer",
     location: "Fiverr",
@@ -136,6 +163,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Ghost Box",
+    description:
+      "Fast, private temp mail with real-time inbox, sleek UI, auto-delete, full viewer, and AWS-powered backend.",
+    tags: ["TypeScript", "React", "Next.js 14", "MongoDB", "AWS Lambda", "SES", "Node.js", "WebSocket", "Vercel"],
+    imageUrl: ghostBox,
+    url: "https://ghostbox.ahmedamir.me",
+  },
+  {
+    title: "LinkShink - Modern URL Shortener",
+    description:
+      "A sleek URL shortener built with React and Node.js, featuring link tracking, and powerful analytics tools.",
+    tags: ["React 18", "Express", "Mongoose", "Axios", "Node.js", "REST API", "Analytics"],
+    imageUrl: linkShrink,
+    url: "https://linkshink.ahmedamir.me",
+  },
   {
     title: "Freight Hub",
     description:
@@ -201,13 +244,25 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
+  "RTK",
   "MS SQL",
+  "MySQL",
+  "PostgreSQL",
+  "MongoDB",
+  "Supabase",
+  "Firebase",
+  "Node.js",
+  "Next.js",
   "Express",
+  "RESTful APIs",
+  "GraphQL",
+  "WebSockets",
+  "Git",
+  "GitHub",
+  "Tailwind CSS",
+  "AWS Services",
+  "Meta API",
+  "Linux CLI",
   "Python",
   "Framer Motion",
 ] as const;
