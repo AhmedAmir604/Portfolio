@@ -8,8 +8,13 @@ import TT from "@/public/TT.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import freightHub from "@/public/freightHub.png";
-import linkShrink from "@/public/linkShrink(1).png";
+
+
+import linkShrink from "@/public/linkShrink.png";
 import ghostBox from "@/public/ghostBox.png";
+
+
+
 import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
